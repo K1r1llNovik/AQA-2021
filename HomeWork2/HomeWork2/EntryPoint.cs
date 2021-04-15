@@ -6,7 +6,14 @@ namespace HomeWork2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(GetMaxCountOfUniqueSequenceOfLetters(args[0]));     
+            try
+            {
+                Console.WriteLine(GetMaxCountOfUniqueSequenceOfLetters(args[0]));
+            }
+            catch(Exception exception)
+            {
+                Console.WriteLine(exception.Message);
+            }
         }
 
 
