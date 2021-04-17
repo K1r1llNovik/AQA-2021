@@ -8,16 +8,17 @@ namespace HomeWork2
     {
         static void Main(string[] args)
         {
-            //try
-            //{
-            //    Console.WriteLine(GetMaxCountOfUniqueSequenceOfLetters(args[0]));
-            //}
-            //catch(Exception exception)
-            //{
-            //    Console.WriteLine(exception.Message);
-            //}
-
-            Console.WriteLine(GetMaxCountOfUniqueSequenceOfLettersSecondTask("sas"));
+            try
+            {
+                Console.Write("First method: ");
+                Console.WriteLine(GetMaxCountOfUniqueSequenceOfLetters(args[0]));
+                Console.Write("Second Method: ");
+                Console.WriteLine(GetMaxCountOfUniqueSequenceOfLettersSecondTask(args[1]));
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine(exception.Message);
+            }
         }
 
 
