@@ -8,7 +8,7 @@ namespace HomeWork3
     {
         public ushort CarryingCapacity { get; }
 
-        public Car(double engineVolume, string transmissionType, ushort maxSpeed, ushort carryingCapacity) : base(engineVolume, transmissionType, maxSpeed)
+        public Car(double engineVolume, string transmissionType, ushort maxSpeed, ushort carryingCapacity) : base (engineVolume, transmissionType, maxSpeed)
         {
             CarryingCapacity = carryingCapacity;
         }

@@ -4,12 +4,12 @@ using System.Text;
 
 namespace HomeWork3
 {
-    abstract class Vehicle
+    public abstract class Vehicle
     {
 
-        private double EngineVolume { get; }
-        private string TransmissionType { get; }
-        private ushort MaxSpeed { get; }
+        public double EngineVolume { get; }
+        public string TransmissionType { get; }
+        public ushort MaxSpeed { get; }
 
         public Vehicle(double engineVolume, string transmissionType, ushort maxSpeed)
         {
