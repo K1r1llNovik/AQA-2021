@@ -21,7 +21,7 @@ namespace HomeWork3
 
         public virtual void GetFullInfo()
         {
-            Console.WriteLine("Engine Volume: " + EngineVolume + "\nTransmissionType: " + TransmissionType + "\nMax speed: " + MaxSpeed);
+            Console.WriteLine("Engine Volume: " + EngineVolume + "\nTransmission Type: " + TransmissionType + "\nMax speed: " + MaxSpeed);
         }
 
     }
